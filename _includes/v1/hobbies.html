@@ -1,0 +1,6 @@
+<div class="container hobbies-container">
+  <h3 id="{{ site.hobbies_title | slugify | default: 'hobbies' }}">{{ site.hobbies_title | default: "Hobbies &amp; Interests" }}</h3>
+  {% for hobbies in site.data.hobbies %}
+    {% include {{ hobbies.layout | default: 'left' | append: ".html" | prepend: "v1/" }} item=hobbies %}
+  {% endfor %}
+</div>

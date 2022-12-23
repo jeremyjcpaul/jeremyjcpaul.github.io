@@ -1,0 +1,8 @@
+<div class="row clearfix layout layout-item">
+  <div class="col-xs-12 col-print-12">
+    {%- if include.item.emblem -%}<div class="emblem-container"><img src="{{ include.item.emblem }}" /></div>{%- endif -%}
+    {%- if include.item.title -%}<h4>{{ include.item.title }}</h4>{%- endif -%}
+    {%- if include.item.subtitle -%}<p><b>{{ include.item.subtitle }}</b></p>{%- endif -%}
+    {{ include.item.description | strip | markdownify }}
+  </div>
+</div>
