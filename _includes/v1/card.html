@@ -1,0 +1,16 @@
+<div class="card" style="width: 18rem;">
+  {%- if include.item.emblem -%}<img class="card-img-top" src="{{ include.item.emblem }}" alt="Card image cap" />{%- endif -%}
+  <div class="card-body">
+    {%- if include.item.title -%}<h5 class="card-title">{{ include.item.title }}</h5>{%- endif -%}
+    {%- if include.item.link -%}
+      {% include a.html href=include.item.link class="link" %}{{ include.item.link }}</a>
+    {%- endif -%}
+    {%- if include.item.dates -%}<p>{{ include.item.dates }}</p>{%- endif -%}
+  </div>
+  <div class="card-body">
+    {% for subitem in include.item.subitems %}
+      {%- if subitem.name -%}<p><b>{{ subitem.name }}</b></p>{%- endif -%}
+      {%- if subitem.description -%}<p>{{ subitem.description }}</p>{%- endif -%}
+    {% endfor %}
+  </div>
+</div>
