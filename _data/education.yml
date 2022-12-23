@@ -13,7 +13,8 @@
   dates: 2008 - 2010
   subitems:
     - item:
-      name: Certificate in Higher Education
+      name: Computer Science
+      description: Certificate in Higher Education
 
 - layout: card
   emblem: images/nct.png
@@ -22,7 +23,7 @@
   subitems:
     - item:
       name: A Levels
-      description: Geography (B), Maths (B) and Physics (C). AS Level Geology (B).
+      description: Geography (B), Maths (B) &amp; Physics (C). AS Level Geology (B).
 
 - layout: card
   emblem: images/rhs.jpg
@@ -31,4 +32,4 @@
   subitems:
     - item:
       name:  GCSEs
-      description: 11 GCSE's graded A*-C <small>(including Maths, English and the sciences)</small>
+      description: 11 graded A*-C <br><small>(incl. Maths, English &amp; the sciences)</small>

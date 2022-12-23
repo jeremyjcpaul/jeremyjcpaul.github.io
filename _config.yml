@@ -8,24 +8,24 @@ version: 1
 # Personal info
 name: Jeremy Paul <small>(they/them)</small>
 title: Senior Developer
-# email: Your email (optional)
+# email: your_email@gmail.com
 # email_title: Email (Email title override)
-# phone: Your phone number (optional)
+# phone: 07123 123 123
 # phone_title: Phone (Phone title override)
-# website: Your website (eg. https://google.com)(optional)
+# website: https://google.com
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-# twitter_username: jekyllrb
+twitter_username: otterlyjeremy
 github_username:  jeremyjcpaul
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-# instagram_username: jekyll
+instagram_username: otterlyjeremy
 linkedin_username: jeremy-codes
 # xing_username: jekyll
 # pinterest_username: jekyll
@@ -52,66 +52,18 @@ linkedin_username: jeremy-codes
 about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  A passionate software developer with a particular flair for back-end development refactoring old/legacy systems and writing unit/integration tests. With over 10 years of industry experience I am always aware of new and upcoming ways to improve our coding practices, no code is perfect and documentation can always be improved. I strongly believe in a team based work ethic, whereby any idea is worth hearing and responsibility should never rest on one person alone. An advocate for equality on the workplace for all and keen to develop new connections. Hobbies and interests include; board games, all things star wars, dog walking, hiking and playing around with new technology or coding languages/practices in my spare time.
+  A passionate software developer with a particular flair for back-end development refactoring old/legacy systems and writing unit/integration tests. With over 10 years of industry experience I am always aware of new and upcoming ways to improve our coding practices, no code is perfect and documentation can always be improved.
 
-content:
-  - title: Skills
-    layout: list
-    content:
-      - layout: left
-        description: | # this will include new lines to allow paragraphs
-          - PHP 8+
-          - MySQL
-          - JS (vanilla, AlpineJS, jQuery, GameQuery, Mootools)
-          - SASS
-          - Tailwind
-          - Firebase
-          - Docker
-          - AWS
-          - ASP .NET
-          - Java
-          - C/C++
-          - C#
-          - SQL
-          - Bash/Zsh
-          - Python
-          - GitHub
-          - Bitbucket
-          - Basecamp Shape Up
-          - Laravel
-          - Symfony
-          - Wordpress
-          - Joomla
-          - Jekyll
-          - Kentico
+  I strongly believe in a team based work ethic, whereby any idea is worth hearing and responsibility should never rest on one person alone. When it comes to project management I have found that the [Shape Up methodology by Basecamp](https://basecamp.com/shapeup){:target="_blank"} is; the most innovative, prevents burn-out and increases project excitement in the team. An advocate for equality in the workplace for all and keen to develop new connections.
 
-  # - title: Projects # Title for the section
-  #   layout: list # Type of content section (list/text)
-  #   content:
-  #     - layout: left
-  #       border: weak  # Value of `weak` will display a weak border below this item. # Any
-  #                     # other value (or no value) means no border will be displayed
-  #       title: Project name
-  #       link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-  #       link_text: Link Text
-  #       additional_links:
-  #         - title:  Github page for project (eg. sproogen/modern-resume-theme)
-  #           icon: fab fa-github
-  #           url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-  #         - title:  Github page for project (eg. sproogen/modern-resume-theme)
-  #           icon: fab fa-github
-  #           url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-  #       quote: >
-  #         Short overview of the project (optional)
-  #       description: | # this will include new lines to allow paragraphs
-  #         Description about the work on/with the project
+  Hobbies and interests include; board games, all things star wars, dog walking, hiking and playing around with new technology or coding languages/practices in my spare time. I really love to travel and have been to over 30 countries in Europe to date.
 
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
 
 # Build settings
-# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+theme: modern-resume-theme
 # remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
 
 sass:

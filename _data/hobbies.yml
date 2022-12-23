@@ -1,0 +1,44 @@
+- layout: item
+  subtitle: Top 5 hobbies
+  description: | # this will include new lines to allow paragraphs
+    1. [Boardgames](https://boardgamegeek.com/user/jeremypaul){:target="_blank"}
+    2. Travelling
+    3. Star Wars
+    4. Hiking <small>w/ dog</small>
+    5. Swimming
+
+- layout: item
+  subtitle: Top 5 boardgames
+  description: | # this will include new lines to allow paragraphs
+    1. [Lord of the Rings: Journeys in Middle Earth](https://boardgamegeek.com/boardgame/269385/lord-rings-journeys-middle-earth){:target="_blank"}
+    2. [Star Wars: Outer Rim](https://boardgamegeek.com/boardgame/271896/star-wars-outer-rim){:target="_blank"}
+    3. [Dominion](https://boardgamegeek.com/boardgame/36218/dominion){:target="_blank"}
+    4. [Sagrada](https://boardgamegeek.com/boardgame/199561/sagrada){:target="_blank"}
+    5. [Carcassonne](https://boardgamegeek.com/boardgame/822/carcassonne){:target="_blank"}
+
+- layout: item
+  subtitle: Top 5 countries I've visited
+  description: | # this will include new lines to allow paragraphs
+    1. Germany
+    2. Slovenia
+    3. The Netherlands
+    4. Switzerland
+    5. Italy
+
+- layout: item
+  subtitle: Top 5 UK days-out
+  description: | # this will include new lines to allow paragraphs
+    1. Hope Valley, Peaks District
+    2. Natural History Museum, London
+    3. Edinburgh Castle
+    4. York Minster
+    5. Chatsworth House &amp; Gardens
+
+- layout: item
+  subtitle: Top 5 TV shows
+  description: | # this will include new lines to allow paragraphs
+    1. [Star Wars: Rebels](https://www.imdb.com/title/tt2930604/){:target="_blank"}
+    2. [Dark](https://www.imdb.com/title/tt5753856/){:target="_blank"}
+    3. [Avatar: The Last Airbender](https://www.imdb.com/title/tt0417299/){:target="_blank"}
+    4. [Game of Thrones](https://www.imdb.com/title/tt0944947/){:target="_blank"}
+    5. [Black Mirror](https://www.imdb.com/title/tt2085059/){:target="_blank"}
