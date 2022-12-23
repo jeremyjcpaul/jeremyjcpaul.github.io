@@ -1,0 +1,52 @@
+- layout: left
+  emblem: images/churchsuite.png
+  company: ChurchSuite Ltd
+  link: https://churchsuite.com
+  jobs:
+    - title: Senior Developer
+      dates:  August 2018 - December 2022
+    - title: Developer
+      dates: October 2014 - August 2018
+  quote: >
+    ChurchSuite is a Church focused management system, providing tools for leaders and members to organise their congregations with; events, bookings, giving with or without GiftAid, service planning, address book and children modules for the membership, small groups and rotas.
+  description: | # this will include new lines to allow paragraphs
+    Throughout my 8 years at the company I was solely responsible for the maintenance and development of the Android and iOS apps, which included an integration with Brother label printers. My duties also included supporting the customer support with queries and bug fixes. 
+
+    Before taking on my senior role at ChurchSuite I had already been involved in major projects such as; rebuilding the mobile apps and the foundations of a bookings module. At this time we used a KANBAN type of agile development, possible due to the company size at the time.
+
+    As a senior developer I led many projects including; the building of the bookings module, unlimited dynamic custom fields for models, smart tags which collate models such as people based on certain criteria, PHPUnit test suites, rewriting the routing and authentication logic, a serverless Laravel based system for embedding content in websites, and many more.
+
+    We used the Basecamp Shape Up methodology for cycle development, which I fully recommend for any sized development team.
+
+- layout: left
+  emblem: images/distinction.jpg
+  company: Distinction Ltd
+  job_title: Developer
+  dates: February 2013 - September 2014
+  link: https://distinction.co.uk/
+  quote: >
+    Multi award winning, innovative digital design company. They concentrate on creating and maintaining web sites and applications with an excellent user experience and top quality design.
+  description: | # this will include new lines to allow paragraphs
+    Web developer and programmer responsible for creating websites and web applications with Kentico, a .NET CMS. I was one of two lead developers in the development of Picador.com. I was also fortunate to attend the Kentico conference in London.
+
+- layout: left
+  emblem: images/bygsystems.jpg
+  company: BYG Systems Ltd
+  job_title: Developer
+  dates: July 2012 - February 2013
+  link: https://bygsystems.com/
+  quote: >
+    One of the top e-learning providers in the UK, developing bespoke applications and systems for e-learning to some of the top names in industry.
+  description: | # this will include new lines to allow paragraphs
+    Development of E-Learning courses, SCORM 1.2 compliant, as well as bespoke systems and websites. I was lead programmer on a number of projects, including the rebrand and redevelopment of BYG’s website.
+
+- layout: left
+  emblem: images/experian.jpg
+  company: Experian Plc
+  job_title: Business Anyalyst Intern
+  dates: August - September 2011
+  link: https://www.experianplc.com/
+  quote: >
+    A well known multinational data analytics and consumer credit reporting company.
+  description: | # this will include new lines to allow paragraphs
+    In this post I shadowed a business analyst manager and worked on my own project to find and capture legacy reports for a solution that the business was migrating to. It was a great opportunity to work with many senior managers within the company.

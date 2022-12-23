@@ -1,0 +1,33 @@
+- layout: left
+  name: Nottingham Trent University
+  qualification: BSci (Hons) Software Engineering (2nd class 1st division)
+  dates: 2010 - 2012
+  quote: >
+
+  description: | # this will include new lines to allow paragraphs
+    My final year dissertation project was a recommendation engine web application.
+    
+- layout: left
+  name: University of Nottingham
+  qualification: Certificate in Higher Education
+  dates: 2008 - 2010
+  quote: >
+
+  description: | # this will include new lines to allow paragraphs
+    I transferred to Nottingham Trent University in order to study on a more industry-led and practical course. This meant there was a lot more different and varied programming courses at NTU, and fewer of the more theoretical and academic modules.
+    
+- layout: left
+  name: New College, Telford
+  qualification: Geography (B), Maths (B) and Physics (C) A Level. Geology AS Level (B).
+  dates: 2006 - 2008
+  quote: >
+
+  description: | # this will include new lines to allow paragraphs
+
+- layout: left
+  name: The Royal Hospital School
+  qualification: 11 GCSE's graded A*-C, including Maths, English and the sciences
+  dates: 2003 - 2006
+  quote: >
+
+  description: | # this will include new lines to allow paragraphs

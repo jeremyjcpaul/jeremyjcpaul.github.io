@@ -167,11 +167,12 @@ body {
 }
 
 .header-right {
+  margin-top: 15px;
   text-align: right;
 }
 
 .header-left {
-  margin-top: 30px;
+  margin-top: 15px;
 
   @media print {
     margin-top: 0px;
