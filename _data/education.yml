@@ -1,33 +1,34 @@
-- layout: left
-  name: Nottingham Trent University
-  qualification: BSci (Hons) Software Engineering (2nd class 1st division)
+- layout: card
+  emblem: images/ntu.jpg
+  title: Nottingham Trent University
   dates: 2010 - 2012
-  quote: >
+  subitems:
+    - item:
+      name: BSci (Hons) Software Engineering
+      description: 2nd class 1st division
 
-  description: | # this will include new lines to allow paragraphs
-    My final year dissertation project was a recommendation engine web application.
-    
-- layout: left
-  name: University of Nottingham
-  qualification: Certificate in Higher Education
+- layout: card
+  emblem: images/uon.jpg
+  title: University of Nottingham
   dates: 2008 - 2010
-  quote: >
+  subitems:
+    - item:
+      name: Certificate in Higher Education
 
-  description: | # this will include new lines to allow paragraphs
-    I transferred to Nottingham Trent University in order to study on a more industry-led and practical course. This meant there was a lot more different and varied programming courses at NTU, and fewer of the more theoretical and academic modules.
-    
-- layout: left
-  name: New College, Telford
-  qualification: Geography (B), Maths (B) and Physics (C) A Level. Geology AS Level (B).
+- layout: card
+  emblem: images/nct.png
+  title: New College, Telford
   dates: 2006 - 2008
-  quote: >
+  subitems:
+    - item:
+      name: A Levels
+      description: Geography (B), Maths (B) and Physics (C). AS Level Geology (B).
 
-  description: | # this will include new lines to allow paragraphs
-
-- layout: left
-  name: The Royal Hospital School
-  qualification: 11 GCSE's graded A*-C, including Maths, English and the sciences
+- layout: card
+  emblem: images/rhs.jpg
+  title: The Royal Hospital School
   dates: 2003 - 2006
-  quote: >
-
-  description: | # this will include new lines to allow paragraphs
+  subitems:
+    - item:
+      name:  GCSEs
+      description: 11 GCSE's graded A*-C <small>(including Maths, English and the sciences)</small>
