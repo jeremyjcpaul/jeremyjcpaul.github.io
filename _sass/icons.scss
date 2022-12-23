@@ -54,20 +54,3 @@ ul.icons a {
     }
   }
 }
-
-@media screen and (max-width: 768px) {
-  .icons {
-    text-align: center;
-  }
-}
-
-.dark {
-  .icons i {
-    background: none;
-    color: #222;
-  }
-
-  .icons a:hover i {
-    color: #e6e6e6;
-  }
-}

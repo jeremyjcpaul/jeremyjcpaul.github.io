@@ -1,8 +1,13 @@
 @import "base";
 @import "button";
 @import "type";
-@import "dark";
+// @import "dark";
 @import "icons";
+
+ul {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
 
 .header-right p {
   margin-bottom: 3px;
@@ -14,27 +19,28 @@
 }
 
 @media screen and (max-width: 767px) {
-  .header-container div{
-    text-align: center;
+  ul {
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
-
-  .header-right p {
-    text-align: center;
+  .container {
+    max-width: none;
+    width: 98%;
   }
-
   .header-left {
     margin-top: 0px;
   }
 }
-@media screen and (min-width: 768px) and (min-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
   .container {
-      width: 98%;
+    max-width: none;
+    width: 98%;
   }
 }
 
 .profile-img {
-  width: 200px;
-  height: 200px;
+  width: 10rem;
+  height: 10rem;
   margin: 0 auto;
   margin-bottom: 20px;
   display: block;
@@ -59,43 +65,44 @@
 }
 
 .layout {
-  margin-top: 3rem;
+  margin-top: 1rem;
   display: flex;
   flex-direction: row;
-  border-bottom: 2px solid #e9e9e9;
   padding-bottom: 10px;
   margin-left: 0;
   margin-right: 0;
 
+  &:not(:last-child) {
+    border-bottom: 1px solid #e9e9e9;
+  }
+
   .emblem-container {
     text-align: right;
     width: 100%;
-    
+
     @media screen and (max-width: 767px) {
       text-align: center;
     }
-    
+
     img {
       border-radius: 100%;
       margin: 15px auto;
-      width: 10rem;
+      width: 5rem;
       -moz-box-shadow: inset 0 0 20px #636161;
       -webkit-box-shadow: inset 0 0 20px #636161;
       box-shadow: inset 0 0 20px #636161;
     }
   }
-  
+
   .details {
     display: flex;
     flex-direction: column;
     text-align: right;
     justify-content: center;
-    margin-right: 1rem;
     vertical-align: middle;
 
     p {
       margin-bottom: 3px;
-      font-size: 1.6rem;
       text-align: inherit;
       font-weight: 300;
 
@@ -124,7 +131,6 @@
     }
 
     .link {
-      font-size: 1.5rem;
       margin-bottom: 15px;
     }
 
@@ -154,12 +160,15 @@
 }
 
 .layout-left, .layout-right {
-  @media screen and (max-width: 767px) {
-    flex-direction: column;
-  }
-
   .details {
     margin-bottom: 2rem;
+  }
+  @media screen and (max-width: 767px) {
+    flex-direction: column;
+
+    .details {
+      margin-bottom: 0.5rem;
+    }
   }
 }
 
@@ -211,7 +220,6 @@
 }
 
 p.quote {
-  font-size: 1.4rem;
   font-style: italic;
   padding: 1rem 2.5rem;
   text-align: center;

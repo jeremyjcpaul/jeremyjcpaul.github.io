@@ -1,9 +1,7 @@
 .dark {
   background-color: #222;
   color: #e6e6e6;
-}
 
-.dark {
   mark {
     color: #222;
     background-color: #e6e6e6;
@@ -11,5 +9,30 @@
 
   a {
     color: #477dca;
+  }
+
+  .button--sacnite::before {
+    box-shadow: inset 0 0 0 35px #e6e6e6;
+  }
+
+  .button.button--sacnite {
+    color: #222;
+  }
+
+  .button--sacnite:hover {
+    color: #e6e6e6;
+  }
+
+  .button--sacnite:hover::before {
+    box-shadow: inset 0 0 0 2px #e6e6e6;
+  }
+
+  .icons i {
+    background: none;
+    color: #222;
+  }
+
+  .icons a:hover i {
+    color: #e6e6e6;
   }
 }
