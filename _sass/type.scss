@@ -22,6 +22,10 @@ h6 {
 p {
   margin: 0 0 0.75rem; }
 
+small {
+  color: #888;
+}
+
 a {
   color: #477dca;
   transition: color 150ms ease;
@@ -29,7 +33,7 @@ a {
 a:active,
 a:focus,
 a:hover {
-color: #355e98;
+  color: #355e98;
 }
 
 h1 {
