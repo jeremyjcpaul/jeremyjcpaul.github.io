@@ -1,0 +1,70 @@
+{%- if site.dribbble_username -%}
+	<a class="list-group-item list-group-item-action" target="_blank" href="https://dribbble.com/{{ site.dribbble_username| cgi_escape | escape }}">
+		<i class="fab fa-dribbble-square" title="Dribble profile"></i> Dribble
+	</a>
+{%- endif -%}
+{%- if site.facebook_username -%}
+	<a class="list-group-item list-group-item-action" target="_blank" href="https://www.facebook.com/{{ site.facebook_username| cgi_escape | escape }}">
+		<i class="fab fa-facebook" title="Facebook profile"></i> Facebook
+	</a>
+{%- endif -%}
+{%- if site.flickr_username -%}
+	<a class="list-group-item list-group-item-action" target="_blank" href="https://www.flickr.com/photos/{{ site.flickr_username| cgi_escape | escape }}">
+		<i class="fab fa-flickr" title="Flickr profile"></i> Flickr
+	</a>
+{%- endif -%}
+{%- if site.linkedin_username -%}
+	<a class="list-group-item list-group-item-action" target="_blank" href="https://www.linkedin.com/in/{{ site.linkedin_username| cgi_escape | escape }}">
+		<i class="fab fa-linkedin" title="LinkedIn profile"></i> LinkedIn
+	</a>
+{%- endif -%}
+{%- if site.github_username -%}
+	<a class="list-group-item list-group-item-action" target="_blank" href="https://github.com/{{ site.github_username| cgi_escape | escape }}">
+		<i class="fab fa-github" title="GitHub profile"></i> GitHub
+	</a>
+{%- endif -%}
+{%- if site.stackoverflow_username -%}
+	<a class="list-group-item list-group-item-action" target="_blank" href="https://stackoverflow.com/users/{{ site.stackoverflow_username| cgi_escape | escape }}">
+		<i class="fab fa-stack-overflow" title="Stack Overflow profile"></i> Stack Overflow
+	</a>
+{%- endif -%}
+{%- if site.instagram_username -%}
+	<a class="list-group-item list-group-item-action" target="_blank" href="https://www.instagram.com/{{ site.instagram_username| cgi_escape | escape }}">
+		<i class="fab fa-instagram" title="Instagram profile"></i> Instagram
+	</a>
+{%- endif -%}
+{%- if site.xing_username -%}
+	<a class="list-group-item list-group-item-action" target="_blank" href="https://www.xing.com/profile/{{ site.xing_username| cgi_escape | escape }}">
+		<i class="fab fa-xing" title="Xing profile"></i> Xing
+	</a>
+{%- endif -%}
+{%- if site.pinterest_username -%}
+	<a class="list-group-item list-group-item-action" target="_blank" href="https://www.pinterest.com/{{ site.pinterest_username| cgi_escape | escape }}">
+		<i class="fab fa-pinterest" title="Pintrest profile"></i> Pintrest
+	</a>
+{%- endif -%}
+{%- if site.twitter_username -%}
+	<a class="list-group-item list-group-item-action" target="_blank" href="https://twitter.com/{{ site.twitter_username| cgi_escape | escape }}">
+		<i class="fab fa-twitter" title="Twitter profile"></i> Twitter
+	</a>
+{%- endif -%}
+{%- if site.youtube_username -%}
+	<a class="list-group-item list-group-item-action" target="_blank" href="https://www.youtube.com/{{ site.youtube_username| cgi_escape | escape }}">
+		<i class="fab fa-youtube" title="Youtube profile"></i> Youtube
+	</a>
+{%- endif -%}
+{%- if site.orcid_username -%}
+	<a class="list-group-item list-group-item-action" target="_blank" href="https://orcid.org/{{ site.orcid_username | escape }}">
+		<i class="fab fa-orcid" title="ORCiD profile"></i> ORCiD
+	</a>
+{%- endif -%}
+{%- if site.googlescholar_username -%}
+	<a class="list-group-item list-group-item-action" target="_blank" href="https://scholar.google.com/citations?user={{ site.googlescholar_username| escape }}">
+		<i class="fab fa-google" title="Google Scholar profile"></i> Google Scholar
+	</a>
+{%- endif -%}
+{% for profile in site.additional_links %}
+	{% include a.html href=link.url class="button button--sacnite button--round-l" %}
+		<i class="{{ profile.icon }}" title="{{ profile.title | escape }}"></i> {{ profile.title | escape }}
+	</a>
+{% endfor %}

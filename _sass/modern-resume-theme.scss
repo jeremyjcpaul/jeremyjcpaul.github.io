@@ -3,10 +3,11 @@
 @import "type";
 // @import "dark";
 @import "icons";
+@import "cards";
 
-ul {
-  padding-left: 4rem;
-  padding-right: 4rem;
+ol, ul {
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 .header-right p {
@@ -18,27 +19,8 @@ ul {
   font-weight:500;
 }
 
-.card {
-  align-items: center;
-  background-color: #d9d9d9;
-  justify-content: center;
-
-  .card-body {
-    background-color: #fff;
-    width: 100%;
-  }
-  .card-img-top {
-    align-items: center;
-    border-radius: 0;
-    justify-content: center;
-    max-height: 5rem;
-    max-width: fit-content;
-    padding: 1px;
-  }
-}
-
 @media screen and (max-width: 767px) {
-  ul {
+  ol, ul {
     padding-left: 2rem;
     padding-right: 2rem;
   }
@@ -58,12 +40,13 @@ ul {
 }
 
 .profile-img {
-  width: 10rem;
-  height: 10rem;
+  width: 200px;
+  height: 200px;
   margin: 0 auto;
   margin-bottom: 20px;
+  place-self: center;
   display: block;
-  border-radius: 100px;
+  border-radius: 100%;
   background-size: cover;
   background-position: center;
   background-repeat: repeat, no-repeat;

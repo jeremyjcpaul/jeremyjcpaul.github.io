@@ -10,6 +10,11 @@
   {%- include v1/education.html -%}
 {%- endif -%}
 
-{%- if site.more_content -%}
-  {%- include v1/more.html -%}
+{%- if site.data.skills.size > 0 || site.data.hobbies.size > 0 -%}
+  <div class="container skills-hobbies-container">
+    <div class="row row-cols-1 row-cols-sm-2 g-2">
+      {%- if site.data.skills.size > 0 -%}<div class="col">{%- include v1/skills.html -%}</div>{%- endif -%}
+      {%- if site.data.hobbies.size > 0 -%}<div class="col">{%- include v1/hobbies.html -%}</div>{%- endif -%}
+    </div>
+  </div>
 {%- endif -%}

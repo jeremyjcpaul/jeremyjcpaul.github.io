@@ -2,7 +2,7 @@
   <div class="row">
     <div class="col-xs-12">
       <p>
-        {{ site.name | escape }}
+        {{ site.name }}{%- if site.pronouns -%} &nbsp;<small>({{ site.pronouns }})</small>{%- endif -%}
         {%- if site.email -%}
         &nbsp;- <a href="mailto:{{ site.email }}" target="_blank">{{ site.email | escape }}</a>
         {%- endif -%}

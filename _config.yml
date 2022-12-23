@@ -6,7 +6,8 @@ favicon: images/favicon.ico
 version: 1
 
 # Personal info
-name: Jeremy Paul <small>(they/them)</small>
+name: Jeremy Paul
+pronouns: they/them
 title: Senior Developer
 # email: your_email@gmail.com
 # email_title: Email (Email title override)
