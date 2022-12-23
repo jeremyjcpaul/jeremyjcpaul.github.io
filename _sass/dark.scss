@@ -8,7 +8,31 @@
   }
 
   a {
-    color: #477dca;
+    color: #e6e6e6;
+  }
+
+  small {
+    color: #aaa;
+  }
+
+  .card {
+    background-color: rgba(var(--bs-dark-rgb)) !important;
+    border-color: rgba(var(--bs-light-rgb), 0.1) !important;
+
+    .card-body {
+      background-color: #262626 !important;
+      color: #fff !important;
+    }
+  }
+
+  .list-group-item {
+    background-color: #d3d3d4;
+    color: #222;
+
+    &:hover {
+      background-color: #bebebf;
+      color: #141619;
+    }
   }
 
   .button--sacnite::before {
@@ -34,5 +58,9 @@
 
   .icons a:hover i {
     color: #e6e6e6;
+  }
+
+  .text-muted {
+    color: #bbb !important;
   }
 }
