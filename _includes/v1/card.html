@@ -2,10 +2,14 @@
   <div class="card h-100 justify-content-center text-bg-light">
     {%- if include.item.emblem -%}<img class="card-img-top" src="{{ include.item.emblem }}" alt="Card image cap" />{%- endif -%}
     <div class="card-body">
-      {%- if include.item.title -%}<h5 class="card-title">{{ include.item.title }}</h5>{%- endif -%}
-      {%- if include.item.link -%}
-        {% include a.html href=include.item.link class="link" %}{{ include.item.link }}</a>
-      {%- endif -%}
+      {%- if include.item.title -%}<h5 class="card-title">
+        {%- if include.item.link -%}
+          {% include a.html href=include.item.link class="link" %}
+        {%- endif -%}
+        {{ include.item.title }}
+        {%- if include.item.link -%} </a> {%- endif -%}
+      </h5>{%- endif -%}
+
       {%- if include.item.dates -%}<p class="card-dates text-muted">{{ include.item.dates }}</p>{%- endif -%}
       <hr>
       {% for subitem in include.item.subitems %}

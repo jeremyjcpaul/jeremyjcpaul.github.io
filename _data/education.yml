@@ -1,6 +1,7 @@
 - layout: card
   emblem: images/ntu.jpg
   title: Nottingham Trent University
+  link: https://www.ntu.ac.uk/
   dates: 2010 - 2012
   subitems:
     - item:
@@ -10,6 +11,7 @@
 - layout: card
   emblem: images/uon.jpg
   title: University of Nottingham
+  link: https://www.nottingham.ac.uk/
   dates: 2008 - 2010
   subitems:
     - item:
@@ -28,6 +30,7 @@
 - layout: card
   emblem: images/rhs.jpg
   title: The Royal Hospital School
+  link: https://www.royalhospitalschool.org/
   dates: 2003 - 2006
   subitems:
     - item:
