@@ -1,18 +1,13 @@
 <div class="container header-container">
   <div class="row">
-    <div class="col-xs-12 col-sm-8 header-left">
+    <div class="col-xs-12 col-md-8 header-left">
       <h1>
         {{ site.name }}
         {%- if site.pronouns -%} &nbsp;<small>({{ site.pronouns }})</small>{%- endif -%}
       </h1>
       <h2>{{ site.title | escape }}</h2>
     </div>
-    <div class="d-block d-sm-none col-sm-4">
-      <div class="list-group no-print">
-        {%- include socials-list.html -%}
-      </div>
-    </div>
-    <div class="d-none d-sm-block col-sm-4 header-right">
+    <div class="col-xs-12 col-md-4 header-right">
       <ul class="icons no-print">
         {%- include socials-list-icons.html -%}
       </ul>
